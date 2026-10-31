@@ -90,7 +90,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read the image using OpenCV
-img = cv2.imread('dk_image.jpeg', cv2.IMREAD_COLOR)
+img = cv2.imread('janna.jpg', cv2.IMREAD_COLOR)
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -108,7 +108,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('dk_image.jpeg') 
+image = cv2.imread('janna.jpg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -128,7 +128,7 @@ plt.show()
 
 ```python
 # Load the image
-image = cv2.imread('dk_image.jpeg') 
+image = cv2.imread('janna.jpg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
